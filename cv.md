@@ -1,9 +1,9 @@
 # Elena Samanchuk
 
 ## Contact Info
-**Email:** [elenasamanchuk@gmail.com](mailto:elenasamanchuk@gmail.com)
-**Telegram:** [@ElaneDmitrievna](https://t.me/ElaneDmitrievna)
-**GitHub:** [github.com/ElenaSamanchuk](https://github.com/ElenaSamanchuk)
+- **Email:** [elenasamanchuk@gmail.com](mailto:elenasamanchuk@gmail.com)
+- **Telegram:** [@ElaneDmitrievna](https://t.me/ElaneDmitrievna)
+- **GitHub:** [github.com/ElenaSamanchuk](https://github.com/ElenaSamanchuk)
 
 ## Summary
 Frontend developer. I create clear, responsive, and thoughtful user interfaces. 
@@ -22,13 +22,13 @@ Transitioned from a medical background into tech — now focused on bringing str
 - Rolling Scopes School (in progress)
 
 ## Languages
-Russian — native
-English — pre-intermediate | read technical documentation
+- Russian — native
+- English — pre-intermediate | read technical documentation
 
 ## Experience:
 - Individual entrepreneur and self-employment
 - Working with brands and bloggers
 
 ## Projects
-[gfmusic.pro](https://gfmusic.pro)
-[minsk.priem.by](https://minsk.priem.by)
+- [gfmusic.pro](https://gfmusic.pro)
+- [minsk.priem.by](https://minsk.priem.by)
