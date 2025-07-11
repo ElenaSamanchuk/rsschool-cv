@@ -32,3 +32,18 @@ Transitioned from a medical background into tech — now focused on bringing str
 ## Projects
 - [gfmusic.pro](https://gfmusic.pro)
 - [minsk.priem.by](https://minsk.priem.by)
+
+### 💻 A bit about me in code:
+```js
+const developer = {
+  name: "Elena",
+  role: "Frontend Developer",
+  loves: ["clean code", "UI/UX", "animations", "cats"],
+  skills: ["HTML", "CSS", "JavaScript"],
+  goal: "to join a creative team and build meaningful products ✨"
+};
+
+if (developer.loves.includes("UI/UX") && developer.skills.includes("JavaScript")) {
+  console.log("Ready to bring interfaces to life!");
+}
+```
