@@ -1,13 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Elena Samanchuk</h1>
-  <p>Frontend Developer</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Elena Samanchuk — Frontend Developer | CV</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="theme-toggle" id="themeToggle">
+      <i class="fas fa-moon"></i>
+    </div>
+    <div class="container">
+      <header class="animate" id="contacts">
+        <div class="header-content">
+          <img
+            src="/img/photo.jpg"
+            alt="profile photo"
+            class="profile-img animate delay-1"
+          />
+          <div class="header-text animate delay-2">
+            <h1>Elena Samanchuk</h1>
+            <p class="title">Frontend Developer / UI-UX Designer</p>
+            <p>
+              Motivated frontend developer with a background in medicine and
+              strong passion for clean UI, web technologies and personal growth.
+              Building projects with HTML, CSS, JavaScript and bringing vision
+              to life.
+            </p>
+            <ul class="contact-info">
+              <li class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:elenasamanchuk@gmail.com"
+                  >elenasamanchuk@gmail.com</a
+                >
+              </li>
+              <li class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+375257207112">+375257207112</a>
+              </li>
+              <li class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Gomel, Belarus</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="main-content">
+        <aside class="sidebar">
+          <section class="card animate delay-1" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+              <li class="skill">HTML5</li>
+              <li class="skill">CSS3</li>
+              <li class="skill">JavaScript</li>
+              <li class="skill">Node.js</li>
+              <li class="skill">REST API</li>
+              <li class="skill">SQL</li>
+              <li class="skill">Git</li>
+              <li class="skill">UI/UX Design</li>
+            </ul>
+          </section>
+          <section class="card animate delay-2">
+            <h2>Languages</h2>
+            <div class="language-item">
+              <div class="language-name">
+                <span>Russian</span>
+                <span>Native</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="language-item">
+              <div class="language-name">
+                <span>English</span>
+                <span>Pre-Intermediate</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 30%"></div>
+              </div>
+            </div>
+          </section>
+          <section class="card animate delay-3" id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+              <div class="degree">Frontend Developer</div>
+              <div class="university">RSSchool</div>
+              <div class="date">
+                <i class="far fa-calendar-alt"></i> 2025 - Ongoing
+              </div>
+            </div>
+            <div class="education-item">
+              <div class="degree">Software engineer</div>
+              <div class="university">Gomel State University</div>
+              <div class="date">
+                <i class="far fa-calendar-alt"></i> 2015-2019
+              </div>
+            </div>
+          </section>
+          <section class="card animate delay-4">
+            <h2>Certificate</h2>
+            <a href="https://app.rs.school/certificate/z2cdziqw" target="_blank"
+              ><img src="/img/certificate.png" alt="certificate" class="certificate"
+            /></a>
+          </section>
+          <section class="card animate delay-4">
+            <h2>Example</h2>
+            <code>
+              <pre>
+const developer = {
+name: "Elena",
+role: "Frontend Developer",
+loves: ["clean code", "UI/UX", "animations"],
+skills: ["HTML", "CSS", "JavaScript"],
+goal: "to join a creative team 
+       and build meaningful products 💻"
+};
+
+if (developer.loves.includes("UI/UX") 
+    && developer.skills.includes("JavaScript")) {
+    console.log("Ready to bring interfaces");
+}
+                    </pre
+              >
+            </code>
+          </section>
+        </aside>
+        <main class="main-section">
+          <section class="card animate delay-1" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+              <div class="job-title">Web Developer</div>
+              <div class="company">Growfood</div>
+              <div class="date">
+                <i class="far fa-calendar-alt"></i> 2024 - Ongoing
+              </div>
+              <div class="description">
+                <p>
+                  Participated in the creation of landing pages on
+                  HTML/CSS/JS/Tilda
+                </p>
+                <ul>
+                  <li>
+                    Fixed bugs and finalized functionality according to the
+                    technical specifications
+                  </li>
+                  <li>
+                    Optimized page loading speed (image compression, lazy
+                    loading)
+                  </li>
+                  <li>
+                    Connected JavaScript interactive elements (sliders, modal
+                    windows)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="experience-item">
+              <div class="job-title">Web Developer</div>
+              <div class="company">ПриЕм</div>
+              <div class="date">
+                <i class="far fa-calendar-alt"></i> 2024 - Ongoing
+              </div>
+              <div class="description">
+                <p>
+                  Participated in the creation of landing pages on
+                  HTML/CSS/JS/Tilda
+                </p>
+                <ul>
+                  <li>
+                    Layoutd layouts from Figma/Photoshop in compliance with
+                    pixel-perfect
+                  </li>
+                  <li>Configured feedback forms and data validation</li>
+                  <li>Used Git/GitHub for version control</li>
+                </ul>
+              </div>
+            </div>
+            <div class="experience-item">
+              <div class="job-title">Web Developer</div>
+              <div class="company">Individual entrepreneur</div>
+              <div class="date">
+                <i class="far fa-calendar-alt"></i> 2020 - Ongoing
+              </div>
+              <div class="description">
+                <p>
+                  Developed adaptive landing pages using HTML5, CSS3 and
+                  JavaScript
+                </p>
+                <ul>
+                  <li>Integrated websites with CMS (WordPress, Tilda)</li>
+                  <li>
+                    Optimized websites for SEO (semantic layout, micro-markup)
+                  </li>
+                  <li>Set up analytics (Google Analytics, Yandex.Metrica)</li>
+                  <li>Set up hosting and domains for clients</li>
+                  <li>Conducted an audit of website speed and security</li>
+                  <li>Optimized web page performance</li>
+                  <li>
+                    Created modern UI components: animated buttons, drop-down
+                    menus, modal windows
+                  </li>
+                  <li>
+                    Integrated third-party APIs (payment systems, maps, social
+                    networks)
+                  </li>
+                  <li>Automated layout testing with PixelPerfect</li>
+                  <li>Implemented a dark theme</li>
+                  <li>Developed a browser extension with useful features</li>
+                  <li>Created a bot for Telegram on Node.js</li>
+                  <li>Connected online chats and feedback forms</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="card animate delay-2" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <img src="/img/gfmusic.png" alt="Project 1" class="project-image" />
+                <div class="project-content">
+                  <h3 class="project-title">
+                    Music platform with basic player functionality
+                  </h3>
+                  <p class="project-description">
+                    Developed an adaptive and interactive interface for a music
+                    platform taking into account UX/UI principles. Integrated an
+                    audio player with basic functions. Optimized page loading
+                    speed by using lazy loading.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JS</span>
+                    <span class="tech-tag">Tilda</span>
+                    <span class="tech-tag">UI/UX</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://gfmusic.pro"
+                      class="project-link"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i> Демо</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img src="/img/priem.png" alt="Project 2" class="project-image" />
+                <div class="project-content">
+                  <h3 class="project-title">Delivery service of ready meals</h3>
+                  <p class="project-description">
+                    Developed an adaptive and intuitive interface for ordering
+                    ready-made meal plans. Set up an adaptive design for mobile
+                    devices (Mobile First approach).
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JS</span>
+                    <span class="tech-tag">Tilda</span>
+                    <span class="tech-tag">UI/UX</span>
+                  </div>
+                  <div class="project-links">
+                    <a
+                      href="https://minsk.priem.by"
+                      class="project-link"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i> Демо</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="animate delay-4">
+        <div class="social-links">
+          <a
+            href="https://github.com/ElenaSamanchuk"
+            class="social-link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://rs.school/courses/javascript-preschool-ru"
+            class="rs-school-logo"
+            target="_blank"
+            ><img src="/img/rs-school-logo.svg" alt="rs-school-logo"
+          /></a>
+        </div>
+        <p>© 2025 Elena Samanchuk. All rights reserved.</p>
+        <p>Latest update: <span id="currentDate"></span></p>
+      </footer>
+    </div>
+    <nav class="side-nav">
+      <ul>
+        <li>
+          <a href="#contacts" data-tooltip="Contacts">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#skills" data-tooltip="Skills">
+            <i class="fas fa-cogs"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#education" data-tooltip="Education">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#experience" data-tooltip="Experience">
+            <i class="fas fa-briefcase"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#projects" data-tooltip="Projects">
+            <i class="fas fa-pie-chart"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
 </html>
