@@ -42,7 +42,7 @@ const animateElements = () => {
   const elements = document.querySelectorAll(".animate");
   elements.forEach((element) => {
     const elementPosition = element.getBoundingClientRect().top;
-    const screenPosition = window.innerHeight / 1.3;
+    const screenPosition = window.innerHeight / 0.7;
     if (elementPosition < screenPosition) {
       element.style.animation = "fadeIn 1s ease forwards";
       const delayClass = Array.from(element.classList).find((cls) =>
